@@ -1,11 +1,10 @@
 class VisitorsController < ApplicationController
 
   def new
-
     @owner = Owner.new
+    flash.now[:notice] = 'Welcome!'
+    flash.now[:alert] = "My birthday is soon."
     # render 'visitors/new'
-    # render searches apps/views/visitors dir for file
-    # named new w/ ext .html.erb
   end
 
 end
