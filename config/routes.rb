@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  root to: 'visitors#new' #request to app root directs to VisitorsController
+  resources :contacts, only: [:new, :create]
+  root to: 'visitors#new'
+
+  #request to app root directs to VisitorsController
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

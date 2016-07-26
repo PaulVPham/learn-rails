@@ -5,3 +5,4 @@ class ApplicationController < ActionController::Base
 end
 
 # limit controllers to seven actions: index, show, new, create, edit, update, destroy
+# pagination, sorting, and bulk edit too
