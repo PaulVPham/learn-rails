@@ -20,9 +20,10 @@ class VisitorsController < ApplicationController
   def secure_params
     params.require(:visitor).permit(:email)
   end
-  
+
 end
 
+#all work connecting MailChimp to Visitor model happens here
 #@owner = Owner.new
 # flash.now[:notice] = 'Welcome!'
 # flash.now[:alert] = "My birthday is soon."
