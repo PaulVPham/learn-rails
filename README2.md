@@ -1,29 +1,35 @@
-README
+Learn Rails Tutorial
 --------------
+Completed based on Daniel Kehoe's tutorial - http://learn-rails.com/
+Github for project - https://github.com/RailsApps/learn-rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Check out the completed project at learn-rails-paul.herokuapp.com
 
-Things you may want to cover:
+The project teaches how to build a Rails app from the ground up and deploy it.
 
-* Ruby version
+Home page, navigation, "about" page, contact form, and mailing list sign-up forms
+are all setup upon completion.
 
-* System dependencies
+Skills learned:
 
-* Configuration
+* Ruby 2.3.0 & Rails 4.2.6
 
-* Database creation
+* Rails MVC model
 
-* Database initialization
+* Ruby Gems setup
 
-* How to run the test suite
+* UNIX command line/terminal and Rails console basics
 
-* Services (job queues, cache servers, search engines, etc.)
+* Git version control
+ 
+* User story mapping
 
-* Deployment instructions
+* Use of MailChimp and SendGrid APIs with environment variables
 
-* ...
+* Deployment to Heroku
 
+* Run rails on local server
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Website creation simple HTML and CSS with Zurb foundation
+
+* Google Analytics integration for web-tracking 
