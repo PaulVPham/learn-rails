@@ -1,6 +1,7 @@
 Learn Rails Tutorial
 --------------
 Completed based on Daniel Kehoe's tutorial - http://learn-rails.com/
+
 Github for project - https://github.com/RailsApps/learn-rails
 
 Check out the completed project at learn-rails-paul.herokuapp.com
